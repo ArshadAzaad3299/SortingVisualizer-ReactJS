@@ -1,0 +1,31 @@
+.array-container{
+    position: absolute;
+    top: 2vh;
+    left: 80px;
+    text-align: center;
+}
+
+.array-bar{
+    width: 13px;
+    background-color: turquoise;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.buttonsMergeSort{
+    margin: 10px;
+    background-color: #d3415f;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    border-color: transparent;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    
+}
+
+.buttonsMergeSort:hover{
+    opacity: 90%;
+}

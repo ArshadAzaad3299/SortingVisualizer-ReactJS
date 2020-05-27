@@ -1,0 +1,49 @@
+.MainWindow-Buttons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:30%;
+    left: 45%;
+}
+
+.header{
+    text-align: center;
+    font-size: 50px;
+}
+
+.mButtons{
+    padding: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #9d2960;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+
+}
+
+.mButtons:hover{
+    background-color: #745aed;
+}
+
+.done-by{
+    float: right;
+    position: relative;
+    right: 15px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
