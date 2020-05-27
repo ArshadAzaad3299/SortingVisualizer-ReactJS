@@ -5,7 +5,7 @@ export default class MainWindow extends React.Component {
 
   MergeSortWindow(e) {
     e.preventDefault();
-    window.location = '/mergeSort'
+    window.location = 'https://eager-dubinsky-e7f73e.netlify.app/mergeSort'
   }
 
   BubbleSortWindow(e) {

@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Router>
         <Route path="/" exact component={MainWindow}/>
-        <Route path="/mergeSort" exact component={MergeSort}/>
+        <Route path="https://eager-dubinsky-e7f73e.netlify.app/mergeSort" exact component={MergeSort}/>
         <Route path ="/bubbleSort" exact component ={BubbleSort}/>
         <Route path ="/quickSort" exact component ={QuickSort}/>
 
