@@ -24,7 +24,7 @@ export default class SortingVisualizer extends React.Component {
     }
 
     //this method resets the array (Generate New Array)
-    //allows duplicate values..
+    //allows duplicate values
     resetArray() {
         const array = [];
         for (let i = 0; i < 100; i++) {
